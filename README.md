@@ -20,6 +20,9 @@ This approach leads to:
 
 ## ⚙️ The Workflow Solution
 
+
+## **Retrieves daily ATC sector reports from Gmail → processes and stores data in the database automatically → serves real-time KPIs through an n8n API for live monitoring.**
+
 ### 📨 Step 1: The Data Arrives
 Every morning, new **ATC flight reports** are sent by email as CSV attachments.  
 Instead of downloading them manually, **n8n’s Gmail trigger** automatically detects and fetches these emails as soon as they arrive.
